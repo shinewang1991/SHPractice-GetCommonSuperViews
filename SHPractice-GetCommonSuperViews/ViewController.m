@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "GetCommonView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *viewB;
+@property (weak, nonatomic) IBOutlet UIView *ViewC;
 
 @end
 
@@ -16,7 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *commonViews = [GetCommonView getCommonViews:self.viewB viewB:self.ViewC];
+    for(UIView *subView in commonViews){
+        NSLog(@"subView----------%d",subView.tag);
+    }
 }
 
 

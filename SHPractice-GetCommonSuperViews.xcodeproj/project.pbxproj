@@ -13,6 +13,7 @@
 		14F4944D2326446A00481EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F4944C2326446A00481EF5 /* Assets.xcassets */; };
 		14F494502326446A00481EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4944E2326446A00481EF5 /* LaunchScreen.storyboard */; };
 		14F494532326446A00481EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F494522326446A00481EF5 /* main.m */; };
+		14F4945B2326448D00481EF5 /* GetCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4945A2326448D00481EF5 /* GetCommonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		14F4944F2326446A00481EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F494512326446A00481EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F494522326446A00481EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F494592326448D00481EF5 /* GetCommonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetCommonView.h; sourceTree = "<group>"; };
+		14F4945A2326448D00481EF5 /* GetCommonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCommonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				14F494442326446800481EF5 /* AppDelegate.m */,
 				14F494462326446800481EF5 /* ViewController.h */,
 				14F494472326446800481EF5 /* ViewController.m */,
+				14F494592326448D00481EF5 /* GetCommonView.h */,
+				14F4945A2326448D00481EF5 /* GetCommonView.m */,
 				14F494492326446800481EF5 /* Main.storyboard */,
 				14F4944C2326446A00481EF5 /* Assets.xcassets */,
 				14F4944E2326446A00481EF5 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				14F494482326446800481EF5 /* ViewController.m in Sources */,
 				14F494532326446A00481EF5 /* main.m in Sources */,
+				14F4945B2326448D00481EF5 /* GetCommonView.m in Sources */,
 				14F494452326446800481EF5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
